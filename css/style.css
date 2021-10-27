@@ -80,3 +80,16 @@ header {
 .section-9 {
     background-color: rgb(84, 224, 147);
 }
+
+/*FOOTER*/
+footer {
+    height: 600px;
+    background-color: rgb(43, 41, 41);
+}
+.footer-top {
+    background-color: lightslategray;
+}
+
+.footer-bottom {
+    background-color:
+}
