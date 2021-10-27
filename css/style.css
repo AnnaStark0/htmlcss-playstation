@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/*HEADER*/
 header {
     height: 150px;
     background-color: grey;
@@ -14,7 +16,10 @@ header {
     background-color: black; 
 }
 
-.head-bottom {
-    height: 100px;
-    background-color: rgb(216, 214, 214); 
+
+/*JUMBO*/
+
+.jumbo {
+    height: 600px;
+    background-color:rgb(70, 68, 68);
 }
