@@ -5,6 +5,12 @@
 }
 
 
+.box {
+    height: 150px;
+    background-color: rgb(68, 169, 236);
+    border: 1px solid black;
+}
+
 /*HEADER*/
 header {
     height: 150px;
@@ -28,14 +34,14 @@ header {
     background-color: lightskyblue;
 }
 
-.box {
-    height: 100px;
-    background-color: rgb(68, 169, 236);
-    border: 1px solid black;
-}
 
 
 /*SECTION-1*/
 .section-1 {
     background-color: mediumseagreen;
+}
+
+/*SECTION-2*/
+.section-2 {
+    background-color:mediumslateblue;
 }
