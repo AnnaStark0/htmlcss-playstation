@@ -80,7 +80,13 @@ header {
 
 /*SECTION-3*/
 .section-3 {
-    background-color:violet; 
+    height: 600px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover; 
+
+    display: flex;
+    align-items: flex-end;
 }
 
 /*SECTION-4*/
