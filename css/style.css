@@ -9,14 +9,14 @@ body {
 }
 
 
-/*.box {
+.box {
     height: 120px;
     width: 230px;
     background-color: rgb(68, 169, 236);
     border: 1px solid black;
 
-    object-fit: cover;
-}*/
+    
+}
 
 /*HEADER*/
 header {
@@ -57,7 +57,7 @@ header {
 }
 
 .row-games {
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
 }
 
 .row-games img {
@@ -69,8 +69,8 @@ header {
 
 
 /*SECTION-1*/
-.section-1 {
-    background-color: mediumseagreen;
+/*.section-1 {
+    background-color: mediumseagreen;*/
 }
 
 /*SECTION-2*/
