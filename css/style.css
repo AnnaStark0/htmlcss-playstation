@@ -14,14 +14,18 @@ body {
     width: 230px;
     background-color: rgb(68, 169, 236);
     border: 1px solid black;
-
-    
 }
+
+.box2 {
+    width: 100%;
+    background-color: blue;
+}
+
 
 /*HEADER*/
 header {
-    height: 140px;
-    background-color: rgb(212, 211, 211);
+    height: 120px;
+    background-color: white;
 }
 
 .head-top {
@@ -34,7 +38,12 @@ header {
 
 
 .logo {
-    width: 75px;
+    width: 100px;
+}
+
+
+.search-logo {
+    width: 40px;
 }
 
 .ms_btn_red {
@@ -63,6 +72,8 @@ header {
 .row-games img {
     width: 100%;
     height: 100%;
+
+    border-radius: 10%;
 
     
 }
@@ -99,14 +110,16 @@ header {
     height: 100%; 
 
     object-fit: cover;
+    border-radius: 10%;
 }
 .section-4 span {
-    font-size: 12px
+    font-size: 20px
 }
 
 /*SECTION-5*/
 .section-5 {
     background-color:white;
+    
 }
 
 .section-5 .row img {
@@ -118,7 +131,7 @@ header {
 
 /*SECTION-6*/
 .section-6 {
-    background-color: limegreen;
+    background-color: lightgray;
 }
 
 /*SECTION-7*/
