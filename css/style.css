@@ -53,6 +53,11 @@ header {
     color: white;
 }
 
+.ms_btn {
+    background: rgba(0, 0, 0, 0.5);
+color: white;
+}
+
 
 /*------------------JUMBO VIDEO PROVA-------------------*/
 .jumbo {
@@ -94,6 +99,10 @@ header {
     opacity: 0.5;
     z-index: 1;
   }
+
+  .ms_logo {
+      margin-left: -20x;
+  }
   
   /* Media Query for devices withi coarse pointers and no hover functionality */
   
@@ -109,6 +118,8 @@ header {
       display: flex;
       align-items: flex-end;
     }
+
+   
   
     .jumbo video {
       display: block;
