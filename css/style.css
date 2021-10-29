@@ -151,13 +151,25 @@ header {
 
 /*FOOTER*/
 footer {
-    height: 600px;
-    background-color: rgb(43, 41, 41);
+    height: 100%;
+    background-color: rgb(7, 3, 241);
 }
 .footer-top {
     background-color: lightslategray;
 }
 
+.pslogo_foot {
+    height: 50px;
+}
+.footer-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.globe {
+    height: 20px;
+}
+
 .footer-bottom {
-    background-color:
+    
 }
