@@ -22,6 +22,7 @@ body {
 }
 
 
+
 /*HEADER*/
 header {
     height: 120px;
@@ -55,7 +56,7 @@ header {
 
 .ms_btn {
     background: rgba(0, 0, 0, 0.5);
-color: white;
+    color: white;
 }
 
 
@@ -67,9 +68,9 @@ color: white;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-  }
-  
-  .jumbo video {
+}
+
+.jumbo video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,14 +83,14 @@ color: white;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-  }
-  
-  .jumbo .container {
+}
+
+.jumbo .container {
     position: relative;
     z-index: 2;
-  }
-  
-  .jumbo .overlay {
+}
+
+.jumbo .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,45 +99,42 @@ color: white;
     background-color: black;
     opacity: 0.5;
     z-index: 1;
-  }
+}
 
-  .ms_logo {
-      margin-left: -20x;
-  }
-  
-  /* Media Query for devices withi coarse pointers and no hover functionality */
-  
-  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-  
-  @media (pointer: coarse) and (hover: none) {
+.ms_logo {
+    margin-left: -20x;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
     .jumbo {
         height: 600px;
-      background-image: url("../img/jumbo-bg.png");
-      background-position: center;
-      background-size: cover;
-  
-      display: flex;
-      align-items: flex-end;
+        background-image: url("../img/jumbo-bg.png");
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        align-items: flex-end;
     }
 
-   
-  
+
+
     .jumbo video {
-      display: block;
+        display: block;
     }
-  }
+}
 
 -----------------------------------------------
-
-
-
 /*JUMBO*/
 
 .jumbo {
     height: 600px;
     background-image: url("../img/jumbo-bg.png");
 
-   
+
     background-position: center;
     background-size: cover;
 
@@ -153,8 +151,19 @@ color: white;
     height: 100%;
 
     border-radius: 10%;
+}
 
+.ms_scale {
+    transition: 0.5s;
+    cursor: grab;
+}
 
+.ms_scale:hover {
+    transform: scale(1.1);
+}
+
+.ms_returnal:active {
+    border-radius: 5px solid blue;
 }
 
 
@@ -230,11 +239,11 @@ color: white;
 
 
 
-   .section-9 img {
-       object-fit: contain;
-        /*min-width: 100px;
+.section-9 img {
+    object-fit: contain;
+    /*min-width: 100px;
         max-width: 150px;*/
-    }
+}
 
 
 /*FOOTER*/
@@ -246,7 +255,7 @@ footer {
 .footer-top {}
 
 .pslogo_foot {
-    height: 50px;
+    height: 70px;
 }
 
 .footer-top a {
