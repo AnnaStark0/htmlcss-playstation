@@ -65,6 +65,10 @@ header {
     color: white;
 }
 
+.btn-dark:hover {
+    background-color: grey;
+}
+
 
 /*------------------JUMBO VIDEO PROVA-------------------*/
 .jumbo {
