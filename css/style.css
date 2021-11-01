@@ -49,6 +49,12 @@ header {
     width: 40px;
 }
 
+
+.nav-item a:hover {
+    border-bottom: 2px solid blue;
+}
+
+
 .ms_btn_red {
     background-color: rgb(255, 38, 0);
     color: white;
@@ -162,9 +168,7 @@ header {
     transform: scale(1.1);
 }
 
-.ms_returnal:active {
-    border-radius: 5px solid blue;
-}
+
 
 
 /*SECTION-1*/
@@ -205,6 +209,16 @@ header {
     font-size: 15px
 }
 
+.ms_opacity {
+    opacity: 0.7;
+}
+
+.ms_opacity:hover {
+    opacity: 1.0;
+ 
+    cursor: grab;
+  }
+
 /*SECTION-5*/
 .section-5 {
     background-color: white;
@@ -212,8 +226,6 @@ header {
 }
 
 .section-5 .row img {
-
-
     object-fit: cover;
 }
 
