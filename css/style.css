@@ -120,10 +120,11 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 10%; 
+    border: 5px solid white;
 }
 
 .ms_border:hover {
-    border: 6px solid rgb(9, 112, 247);
+    border: 5px solid rgb(9, 112, 247);
 }
 
 .ms_scale {
